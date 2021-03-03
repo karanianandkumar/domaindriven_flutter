@@ -1,8 +1,9 @@
-import 'package:domaindriven_flutter/domain/auth/value_validators.dart';
-import 'package:domaindriven_flutter/domain/core/failures.dart';
 import 'package:dartz/dartz.dart';
-import 'package:domaindriven_flutter/domain/core/value_objects.dart';
 import 'package:flutter/material.dart';
+
+import '../core/failures.dart';
+import '../core/value_objects.dart';
+import 'value_validators.dart';
 
 class EmailAddress extends ValueObject<String> {
   @override

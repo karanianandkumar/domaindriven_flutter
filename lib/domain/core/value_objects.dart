@@ -4,7 +4,7 @@ import 'package:meta/meta.dart';
 
 import '../core/failures.dart';
 
-@immutable
+
 abstract class ValueObject<T> {
   
 

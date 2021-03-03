@@ -1,6 +1,7 @@
 
-import 'package:domaindriven_flutter/domain/core/failures.dart';
 import 'package:dartz/dartz.dart';
+
+import '../core/failures.dart';
 
 Either<ValueFailure<String>, String> validateEmailAddress(String input) {
   const emailRegeX =
